@@ -1,0 +1,40 @@
+create database caminhoes;
+ 
+ use caminhoes;
+
+ create table empresas(
+ cnpj VARCHAR(100) NOT NULL, 
+ nome VARCHAR(200) NOT NULL,
+ endereco VARCHAR(300) NOT NULL,
+ PRIMARY KEY(cnpj),
+ UNIQUE(cnpj)
+ );
+
+create table motorista(
+cpf VARCHAR (100) NOT NULL,
+codigo_cnh VARCHAR(200) NOT NULL,
+nome VARCHAR(300) NOT NULL,
+idade INT NOT NULL,
+PRIMARY KEY(cpf),
+UNIQUE(cpf)
+);
+
+create table veiculos(
+placa VARCHAR (100) NOT NULL,
+chassi VARCHAR (100) NOT NULL,
+tipos ENUM ('caminhao_bau', 'caminhao_bitrem', 'caminhao_cegonha', 'carreta'),
+PRIMARY KEY(placa),
+UNIQUE(placa)
+);
+
+create table pedido_entrega(
+id_pedido INT NOT NULL AUTO_INCREMENT,
+data_prevista DATE NOT NULL,
+PRIMARY KEY(id_pedido),
+UNIQUE(id_pedido)
+);
+
+create table registro_entrega(
+data_entrega DATE,
+horario_entrega TIME
+);
