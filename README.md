@@ -9,16 +9,19 @@ Contamos monitoramento em tempo real de todos os veiculos, tendo controle de qua
 
 ### Veiculos e Motoristas
 Todos os veiculos ficam registrados no sistema com base em placa, chassi, peso maximo de carga, modelo e funcionalidade. Tambem são registrados, todos os motoristas com nome, idade, CPF, RG e foto de indentificação. 
-Pedidos e Entregas: Todos os pedidos são formalizados pelas empresas apos realizarem as regras de negocio, depois disso no sistema, designamos o veiculo especializado para entrega e o motorista para a função. O sistema de entregas conta com monitoramento em tempo real de todas as cargas para os contratantes terem noção da distancia de seus pedidos.
 
- 
-  
-   ![image](https://github.com/user-attachments/assets/a7fe83fd-3fdf-458f-82bc-41f4005f673a)
+ ![image](https://github.com/user-attachments/assets/a7fe83fd-3fdf-458f-82bc-41f4005f673a)
+
+### Pedidos
+Todos os pedidos são formalizados pelas empresas apos realizarem as regras de negocio, depois disso no sistema, designamos o veiculo especializado para entrega e o motorista para a função. O sistema de entregas conta com monitoramento em tempo real de todas as cargas para os contratantes terem noção da distancia de seus pedidos.
 
 
 ### Pagamentos
-Todos os pagamentos devem ser realizado pelo proprio aplicativo e antes da entrega, assim como o frete que e obrigatorio, calculado com base na sua distancia.
-CNH: Com a CNH, usando o sistema de consulta do DETRAN, o aplicativo deve indentificar qualquer impasse por parte do motorista, sendo, multas ou documentação atrasada.
+Todos os pagamentos devem ser realizado pelo proprio aplicativo e antes da entrega, assim como o frete que é obrigatorio, calculado com base na sua distancia.
+
+### Multas de transito
+Com a CNH, usando o sistema de consulta do DETRAN, o aplicativo deve indentificar qualquer impasse por parte do motorista, sendo, multas ou documentação atrasada.
+
 
 ### Suporte
 Caso o Motorista tenha algo a reportar, devera mandar tudo de forma de forma simples de compreender,sendo roubo de carga, caminhão com defeito ou falta de comunicação, assim o suporte vai realizar todo o apoio para o mesmo. 
